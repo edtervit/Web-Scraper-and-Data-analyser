@@ -99,7 +99,15 @@ driver.get(sys_url)
 
 #checks the excel to see if the trainer and track are correct
 def check_jp11(track,trainer):
-    pd.read_excel('system11.xlsx')
+    
+    df = pd.read_csv('system11.csv')
+    #for each row in the CSV check if the trainer and the track are there if they are return true
+    for row in df.itertuples(index=False):
+        if row.Trainer == trainer and row.Track == track:
+            return True
+        else:
+            return False    
+
     
 
 
@@ -125,7 +133,8 @@ df = pd.read_html(html_source)
 #goes to table on page with info
 correct_table = df[16]
 
-
+#empty list where I'll be adding results
+results_jp =[]
 
 
 #_1 = system name 
@@ -139,6 +148,12 @@ for row in correct_table.itertuples(index=False):
     
     #if system 11 
     if row._1 == '(11) checkresultsNEW excel ':
+        #checks if the track and trainer is in the excel file
+        if check_jp11(row._3, row._7):
+            results_jp.append('Horse: ' + str(row._5) + ' at track: ' + str(row._3) + ' at time: ' +str(row._2) + ' ')
+
+        else:
+            pass
         
 
     #if system  8 CheckExcel Track MALE 1strun2yo
@@ -151,7 +166,7 @@ for row in correct_table.itertuples(index=False):
         pass    
     
 
-
+print(results_jp)
 
 driver.quit()
 
