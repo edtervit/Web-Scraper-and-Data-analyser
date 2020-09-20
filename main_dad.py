@@ -104,13 +104,12 @@ def check_jp11(track,trainer):
     df = pd.read_csv('system11.csv')
     #for each row in the CSV check if the trainer and the track are there if they are return true
     for row in df.itertuples(index=False):
-        if row.Trainer == trainer and row.Track == track:
+        if row.Trainer == str(trainer) and row.Track == str(track):
             return True
-            break
+            
         else:
-            return False
             pass
-
+    return False        
 
     
 
@@ -174,7 +173,13 @@ track = 'Galway'
 
 trainer = 'Bolger, E'
 
-check_jp11(track,trainer)
+if check_jp11(track,trainer):
+    print('it worked')
+else:
+    print('uh oh')    
+
+
+ 
 
 # driver.quit()
 
