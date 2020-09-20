@@ -96,22 +96,61 @@ driver.get(sys_url)
 ####################################################################################                                                                     
 ####################################################################################
 
-driver.get('https://www.horseracebase.com/v4advancequalifiers.php?tom=1')
 
-driver.set_window_size(1920, 1080) ## makes window big enough to see all data
+#checks the excel to see if the trainer and track are correct
+def check_jp11(track,trainer):
+    pd.read_excel('system11.xlsx')
+    
+
+
+def check_male(track,trainer):
+
+
+
+def check_female(track,trainer):    
 
 
 
 
-tomorrows_date = datetime.date.today() + datetime.timedelta(days=1)
 
-tomorrow = tomorrows_date.strftime("%d_%m_%Y") + " Qualifiers"
 
-driver.save_screenshot(r"E:\Dropbox\Dropbox\DAD\GeeGeez\Qualifiers\screenshot.png")
 
-file_path = r'E:\Dropbox\Dropbox\DAD\GeeGeez\Qualifiers/'
+#loads page with info
+driver.get('https://www.horseracebase.com/v4advancequalifiers.php')
 
-os.rename( "E:\Dropbox\Dropbox\DAD\GeeGeez\Qualifiers\screenshot.png" , file_path + tomorrow + '.png' ) 
+html_source = driver.page_source
+
+df = pd.read_html(html_source)
+
+#goes to table on page with info
+correct_table = df[16]
+
+
+
+
+#_1 = system name 
+#_2 = race time
+#_3 = Track
+#_5 = horse name
+#_7 = Trainer
+
+#checks table for info 
+for row in correct_table.itertuples(index=False):
+    
+    #if system 11 
+    if row._1 == '(11) checkresultsNEW excel ':
+        
+
+    #if system  8 CheckExcel Track MALE 1strun2yo
+    elif row._1 == '(8) CheckExcel Track MALE 1strun2yo ':
+
+    #if system  20 CheckExcel Track FEMALE 1strun2yo
+    elif row._1 == '(20) CheckExcel Track FEMALE 2yo1st ':
+
+    else:
+        pass    
+    
+
 
 
 driver.quit()
