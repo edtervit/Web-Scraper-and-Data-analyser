@@ -16,47 +16,7 @@ import csv
 
 import pickle
 
-
-
-#checks the excel to see if the trainer and track are correct
-def check_jp11(track,trainer):
-    
-    df = pd.read_csv('system11.csv')
-    #for each row in the CSV check if the trainer and the track are there if they are return true
-    for row in df.itertuples(index=False):
-        if row.Trainer == str(trainer) and row.Track == str(track):
-            return True
-            
-        else:
-            pass
-    return False        
-
-    
-
-
-def check_male(track,trainer):
-    df = pd.read_csv('system208.csv')
-
-    for row in df.itertuples(index=False):
-        gender = 'Male'
-        if row.Trainer == trainer and row.Course == track and row.Gender == gender:
-            return True
-            
-        else:
-            pass
-    return False
-
-def check_female(track,trainer):    
-    df = pd.read_csv('system208.csv')
-
-    for row in df.itertuples(index=False):
-        gender = 'Female'
-        if row.Trainer == trainer and row.Course == track and row.Gender == gender:
-            return True
-            
-        else:
-            pass
-    return False
+from twilio.rest import Client
 
 
 def run_script():
@@ -145,7 +105,7 @@ def run_script():
 
 
     #loads page with info
-    driver.get('https://www.horseracebase.com/v4advancequalifiers.php')
+    driver.get('https://www.horseracebase.com/v4advancequalifiers.php?tom=1')
 
     html_source = driver.page_source
 
@@ -197,19 +157,89 @@ def run_script():
             else:
                 
                 pass
-         
+        else:
+            pass
 
+    driver.quit()
     return results_jp, results_Female, results_Male
+
+
+
+
+
+
+
+#checks the excel to see if the trainer and track are correct
+def check_jp11(track,trainer):
     
+    df = pd.read_csv('system11.csv')
+    #for each row in the CSV check if the trainer and the track are there if they are return true
+    for row in df.itertuples(index=False):
+        if row.Trainer == str(trainer) and row.Track == str(track):
+            return True
+            
+        else:
+            pass
+    return False        
+
+def check_male(track,trainer):
+    df = pd.read_csv('system208.csv')
+
+    for row in df.itertuples(index=False):
+        gender = 'Male'
+        if row.Trainer == trainer and row.Course == track and row.Gender == gender:
+            return True
+            
+        else:
+            pass
+    return False
+
+def check_female(track,trainer):    
+    df = pd.read_csv('system208.csv')
+
+    for row in df.itertuples(index=False):
+        gender = 'Female'
+        if row.Trainer == trainer and row.Course == track and row.Gender == gender:
+            return True
+            
+        else:
+            pass
+    return False
+
+
+
+def send_whatsapp(input_message):
+
+    account_sid = config.twilio_sid
+    auth_token = config.twilio_auth
+
+    template = 'Your info code is '
+
+    client = Client(account_sid, auth_token)
+
+    message = client.messages.create(
+                                body=str(template + input_message),
+                                from_='whatsapp:+14155238886',
+                                to='whatsapp:+447722593419'
+                            )
+    print(message.sid)
+    
+
 
 
 
 
 results_jp, results_Female, results_Male = run_script() 
 
+results_all = results_Female + results_Male
 
-print(results_jp)
-print(results_Male)
-print(results_Female)
-# driver.quit()
+ting = 'JP horses (check the race type):  \n' + ', \n'.join(results_jp) + '\n NO CHECKING REQUIRED: ' + ', '.join(results_all)
 
+
+send_whatsapp(ting)
+
+# print(results_jp)
+# print(results_Male)
+# print(results_Female)
+
+# TRY AND RUN ME AFTER 24 HOURS OF NOT SPEAKING TO TWILIO ON WHATSAPP
