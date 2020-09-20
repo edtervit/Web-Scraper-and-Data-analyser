@@ -16,7 +16,50 @@ import csv
 
 import pickle
 
-def login():
+
+
+#checks the excel to see if the trainer and track are correct
+def check_jp11(track,trainer):
+    
+    df = pd.read_csv('system11.csv')
+    #for each row in the CSV check if the trainer and the track are there if they are return true
+    for row in df.itertuples(index=False):
+        if row.Trainer == str(trainer) and row.Track == str(track):
+            return True
+            
+        else:
+            pass
+    return False        
+
+    
+
+
+def check_male(track,trainer):
+    df = pd.read_csv('system208.csv')
+
+    for row in df.itertuples(index=False):
+        gender = 'Male'
+        if row.Trainer == trainer and row.Course == track and row.Gender == gender:
+            return True
+            
+        else:
+            pass
+    return False
+
+def check_female(track,trainer):    
+    df = pd.read_csv('system208.csv')
+
+    for row in df.itertuples(index=False):
+        gender = 'Female'
+        if row.Trainer == trainer and row.Course == track and row.Gender == gender:
+            return True
+            
+        else:
+            pass
+    return False
+
+
+def run_script():
     ## makes selenium headless and shows where the driver file is.
     chrome_options = webdriver.ChromeOptions()
     chrome_options.headless = True
@@ -96,33 +139,9 @@ def login():
     ####################################################################################
     ####################################################################################                                                                     
     ####################################################################################
-
-
-#checks the excel to see if the trainer and track are correct
-def check_jp11(track,trainer):
-    
-    df = pd.read_csv('system11.csv')
-    #for each row in the CSV check if the trainer and the track are there if they are return true
-    for row in df.itertuples(index=False):
-        if row.Trainer == str(trainer) and row.Track == str(track):
-            return True
-            
-        else:
-            pass
-    return False        
-
     
 
 
-def check_male(track,trainer):
-    df = pd.read_csv('')
-
-
-def check_female(track,trainer):    
-    test = ''
-
-
-def run_script():
 
 
     #loads page with info
@@ -135,13 +154,14 @@ def run_script():
     #goes to table on page with info
     correct_table = df[16]
 
+    
     #empty list where I'll be adding results
     results_jp =[]
-
-
+    results_Male = []
+    results_Female = []
     #_1 = system name 
     #_2 = race time
-    #_3 = Track
+    #row._3 = Track
     #_5 = horse name
     #_7 = Trainer
 
@@ -149,37 +169,47 @@ def run_script():
     for row in correct_table.itertuples(index=False):
         
         #if system 11 
-        if row._1 == '(11) checkresultsNEW excel ':
+        if row._1 == '(11) checkresultsNEW excel':
             #checks if the track and trainer is in the excel file
+            print('Found something to check')
             if check_jp11(row._3, row._7):
                 results_jp.append('Horse: ' + str(row._5) + ' at track: ' + str(row._3) + ' at time: ' +str(row._2) + ' ')
 
             else:
+                
                 pass
             
 
         #if system  8 CheckExcel Track MALE 1strun2yo
-        elif row._1 == '(8) CheckExcel Track MALE 1strun2yo ':
-            test = ''
+        elif row._1 == '(8) CheckExcel Track MALE 1strun2yo':
+            if check_jp11(row._3, row._7):
+                results_jp.append('Horse: ' + str(row._5) + ' at track: ' + str(row._3) + ' at time: ' +str(row._2) + ' ')
+
+            else:
+                
+                pass
 
         #if system  20 CheckExcel Track FEMALE 1strun2yo
-        elif row._1 == '(20) CheckExcel Track FEMALE 2yo1st ':
-            test = ''
-        else:
-            pass    
+        elif row._1 == '(20) CheckExcel Track FEMALE 2yo1st':
+            if check_jp11(row._3, row._7):
+                results_jp.append('Horse: ' + str(row._5) + ' at track: ' + str(row._3) + ' at time: ' +str(row._2) + ' ')
+
+            else:
+                
+                pass
+         
+
+    return results_jp, results_Female, results_Male
     
 
-track = 'Galway'
-
-trainer = 'Bolger, E'
-
-if check_jp11(track,trainer):
-    print('it worked')
-else:
-    print('uh oh')    
 
 
- 
 
+results_jp, results_Female, results_Male = run_script() 
+
+
+print(results_jp)
+print(results_Male)
+print(results_Female)
 # driver.quit()
 

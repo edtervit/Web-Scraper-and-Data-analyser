@@ -1,81 +1,82 @@
-Runners,Wins,Win% ,Places,Place %,ROI Back SP,ROI Back BF,ROI Lay BF,ROI Lay SP,Places BF,Place% BF,P/L Back BF Place ,P/L Lay BF Place ,Max Odds,A/E,Trainer,Track,Race Type
-9,0,0,2,22.22,-100,-100,8.55,4.95,2,22.22,-4.62,4.14,34,0,"Bolger, E",Cheltenham,Chase
-5,0,0,1,20,-100,-100,4.75,1.99,1,20,-0.39,0,34,0,"Bolger, E",Galway,Handicap Hurdle
-5,0,0,1,20,-100,-100,4.75,12.2,1,20,-1.18,0.83,11,0,"Bolger, E",Kilbeggan,Handicap Chase
-14,5,35.71,9,64.29,87.5,120.22,-18.64,-18.83,9,64.29,9.24,-10.24,11,1.88,"Bolger, E",Killarney,Handicap Chase
-7,0,0,2,28.57,-100,-100,6.65,14.76,2,28.57,-1.41,0.97,10,0,"Bolger, E",Wexford,Handicap Chase
-6,0,0,0,0,-100,-100,5.7,4.23,0,0,-6,5.7,26,0,"Dempsey, J P",Leopardstown,Handicap Chase
-6,2,33.33,2,33.33,-34.67,-34.05,1.74,1.4,2,33.33,-3.57,3.35,26,1.49,"Elliott, Gordon",Fairyhouse,Beginners Chase
-5,0,0,1,20,-100,-100,4.75,2.22,1,20,-2.27,1.98,34,0,"Elliott, Gordon",Leopardstown,Handicap Chase
-6,0,0,1,16.67,-100,-100,5.7,3.48,1,16.67,-2.96,2.6,26,0,"Elliott, Gordon",Leopardstown,Handicap Hurdle
-5,2,40,3,60,260,508.29,-27.06,-37.6,3,60,6.27,-6.81,15,2.82,"Fahy, P A",Punchestown,Handicap Hurdle
-5,0,0,0,0,-100,-100,4.75,0.25,0,0,-5,4.75,81,0,"Flood, F",Punchestown,Maiden Hurdle
-5,0,0,0,0,-100,-100,4.75,5.26,0,0,-5,4.75,15,0,"Harrington, Mrs John",Killarney,Handicap Chase
-5,0,0,0,0,-100,-100,4.75,3.65,0,0,-5,4.75,26,0,"Harrington, Mrs John",Punchestown,Handicap Hurdle
-7,3,42.86,4,57.14,264.29,346.2,-25.92,-42.28,4,57.14,6.91,-7.58,11,3,"Haslam, B M R",Cartmel,Handicap Chase
-6,0,0,0,0,-100,-100,5.7,6.96,0,0,-6,5.7,17,0,"Haslam, B M R",Kelso,Handicap Chase
-5,0,0,1,20,-100,-100,4.75,6.05,1,20,0.07,-0.48,23,0,"Haslam, B M R",Kelso,Handicap Hurdle
-7,0,0,0,0,-100,-100,6.65,4.5,0,0,-7,6.65,34,0,"Haslam, B M R",Market Rasen,Handicap Chase
-10,3,30,4,40,150,200.94,-21.87,-15.03,4,40,6.29,-7.24,34,2.27,"Haslam, B M R",Sedgefield,Handicap Chase
-6,0,0,1,16.67,-100,-100,5.7,5.81,1,16.67,-1.96,1.55,26,0,"Haslam, B M R",Southwell,Handicap Chase
-13,6,46.15,7,53.85,37.77,39.77,-6.16,-1.33,7,53.85,0.75,-1.4,101,1.33,"Henderson, N J",Cheltenham,Hurdle
-6,2,33.33,3,50,58.33,83.75,-5.7,-5,3,50,1.95,-2.36,41,1.92,"Henderson, N J",Newbury,Handicap Hurdle
-5,3,60,4,80,45,49.87,-2.83,-3.25,4,80,0.5,-0.63,34,1.7,"Hobbs, P J",Exeter,Novices Hurdle
-6,2,33.33,4,66.67,300,351.49,-22.61,-14.01,4,66.67,14.76,-15.74,34,4.44,"Honeyball, A J",Ascot,Handicap Chase
-5,2,40,3,60,85,89.91,-5.04,-16.96,3,60,1.09,-1.35,9,2.11,"King, A",Kempton,Handicap Hurdle
-9,0,0,0,0,-100,-100,8.55,0.38,0,0,-9,8.55,101,0,"Madden, Niall",Naas,Maiden Hurdle
-6,0,0,0,0,-100,-100,5.7,0.3,0,0,-6,5.7,101,0,"Madden, Niall",Navan,Maiden Hurdle
-6,0,0,1,16.67,-100,-100,5.7,4.03,1,16.67,-3.79,3.48,26,0,"Madden, Niall",Navan,Handicap Hurdle
-5,2,40,2,40,140,153.94,-8.41,-11.46,2,40,-0.44,0.16,21,3.28,"Mullins, Thomas",Leopardstown,Handicap Chase
-6,0,0,1,16.67,-100,-100,5.7,1.99,1,16.67,-2.15,1.75,51,0,"Mullins, Thomas",Leopardstown,Handicap Hurdle
-5,0,0,0,0,-100,-100,4.75,3.37,0,0,-5,4.75,26,0,"Mullins, Thomas",Navan,Handicap Chase
-6,0,0,1,16.67,-100,-100,5.7,1.49,1,16.67,-1.68,1.25,34,0,"Mullins, Thomas",Punchestown,Beginners Chase
-7,0,0,1,14.29,-100,-100,6.65,4.72,1,14.29,-4.16,3.76,26,0,"Mullins, Thomas",Punchestown,Handicap Chase
-5,0,0,0,0,-100,-100,4.75,6.9,0,0,-5,4.75,15,0,"Mullins, Thomas",Punchestown,Handicap Hurdle
-5,0,0,2,40,-100,-100,4.75,7.67,2,40,-0.48,0.2,21,0,"Nolan, Paul",Punchestown,Handicap Chase
-6,4,66.67,5,83.33,139.67,161.58,-10.41,-38.67,5,83.33,2.52,-2.75,9,2.4,"OBrien, A P",Dundalk,Handicap
-5,0,0,2,40,-100,-100,4.75,3.37,2,40,5.04,-5.61,51,0,"OBrien, Joseph Patrick",Cheltenham,Hurdle
-6,0,0,1,16.67,-100,-100,5.7,1.71,1,16.67,-3.5,3.17,34,0,"OBrien, Joseph Patrick",Ballinrobe,Beginners Chase
-7,0,0,2,28.57,-100,-100,6.65,10.6,2,28.57,-4.12,3.82,26,0,"OBrien, Joseph Patrick",Ballinrobe,Maiden Hurdle
-10,0,0,2,20,-100,-100,9.5,9.68,2,20,-5.51,4.98,13,0,"OBrien, Joseph Patrick",Ballinrobe,Handicap Hurdle
-9,0,0,4,44.44,-100,-100,8.55,3.85,4,44.44,-2.9,2.54,26,0,"OBrien, Joseph Patrick",Fairyhouse,Hurdle
-6,0,0,2,33.33,-100,-100,5.7,5.55,3,50,2.82,-3.28,29,0,"OBrien, Joseph Patrick",Fairyhouse,Novices Hurdle
-5,0,0,2,40,-100,-100,4.75,2.53,2,40,-0.08,-0.22,26,0,"OBrien, Joseph Patrick",Fairyhouse,Handicap Novices Hurdle
-7,0,0,2,28.57,-100,-100,6.65,4.86,2,28.57,-1.71,1.29,21,0,"OBrien, Joseph Patrick",Kilbeggan,Beginners Chase
-12,4,33.33,7,58.33,115.25,177.09,-23.19,-11.35,7,58.33,2.05,-2.67,26,1.24,"OBrien, Joseph Patrick",Kilbeggan,Maiden Hurdle
-5,2,40,2,40,170,228.42,-12.33,-20.2,2,40,0.07,-0.38,26,2.41,"OBrien, Joseph Patrick",Kilbeggan,Novices Chase
-9,0,0,3,33.33,-100,-100,8.55,5.73,3,33.33,-0.59,0.01,26,0,"OBrien, Joseph Patrick",Kilbeggan,Handicap Chase
-6,2,33.33,2,33.33,225,242.08,-15.7,-13.3,2,33.33,0.56,-1,26,3.7,"OBrien, Joseph Patrick",Kilbeggan,Handicap Hurdle
-5,0,0,4,80,-100,-100,4.75,22.53,4,80,2.26,-2.48,8,0,"OBrien, Joseph Patrick",Leopardstown,NH Flat
-9,0,0,1,11.11,-100,-100,8.55,1.6,2,22.22,-1.65,1.02,67,0,"OBrien, Joseph Patrick",Leopardstown,Handicap Hurdle
-8,0,0,1,12.5,-100,-100,7.6,1.42,1,12.5,-3.25,2.7,51,0,"OBrien, Joseph Patrick",Limerick,Handicap Chase
-8,0,0,0,0,-100,-100,7.6,2.55,0,0,-8,7.6,34,0,"OBrien, Joseph Patrick",Listowel,Handicap Chase
-5,0,0,2,40,-100,-100,4.75,14.04,2,40,-1.77,1.56,11,0,"OBrien, Joseph Patrick",Naas,Novices Hurdle
-5,0,0,1,20,-100,-100,4.75,3.85,1,20,-2.5,2.22,26,0,"OBrien, Joseph Patrick",Naas,Handicap Hurdle
-5,0,0,0,0,-100,-100,4.75,2.99,0,0,-5,4.75,26,0,"OBrien, Joseph Patrick",Navan,Handicap Chase
-8,0,0,4,50,-100,-100,7.6,5.77,4,50,1.46,-1.95,29,0,"OBrien, Joseph Patrick",Punchestown,Hurdle
-6,2,33.33,3,50,116.67,171.94,-11.27,-23.82,4,66.67,1.8,-2.1,15,1.27,"OBrien, Joseph Patrick",Punchestown,NH Flat
-8,0,0,2,25,-100,-100,7.6,4.93,2,25,-3.2,2.75,23,0,"OBrien, Joseph Patrick",Punchestown,Handicap Chase
-5,0,0,2,40,-100,-100,4.75,13.96,2,40,1.79,-2.19,9,0,"OBrien, Joseph Patrick",Roscommon,Novices Hurdle
-5,2,40,2,40,126.6,159.26,-8.69,-5.78,2,40,-1.08,0.83,34,2.11,"OBrien, Joseph Patrick",Thurles,Maiden Hurdle
-5,0,0,0,0,-100,-100,4.75,2.46,0,0,-5,4.75,34,0,"OBrien, Joseph Patrick",Wexford,Beginners Chase
-5,2,40,4,80,33.4,40.13,-2.42,-5.63,4,80,1.71,-1.9,13,1.46,"OBrien, Joseph Patrick",Wexford,Maiden Hurdle
-5,3,60,3,60,330,384.84,-20.46,-60.57,3,60,2.12,-2.44,8,4,"OBrien, Joseph Patrick",Wexford,Handicap Chase
-5,0,0,2,40,-100,-100,4.75,4.28,2,40,3.09,-3.56,26,0,"ONeill, Jonjo",Ascot,Handicap Chase
-5,0,0,2,40,-100,-100,4.75,7.21,2,40,-0.91,0.65,21,0,"ONeill, Jonjo",Bangor,Handicap Chase
-5,0,0,1,20,-100,-100,4.75,2.02,1,20,-2.24,1.95,51,0,"ONeill, Jonjo",Doncaster,Handicap Chase
-5,0,0,1,20,-100,-100,4.75,3.73,1,20,-2.11,1.81,26,0,"ONeill, Jonjo",Exeter,Handicap Chase
-5,0,0,0,0,-100,-100,4.75,2.31,0,0,-5,4.75,51,0,"ONeill, Jonjo",Exeter,Handicap Hurdle
-6,0,0,3,50,-100,-100,5.7,6.33,3,50,10.71,-11.58,26,0,"ONeill, Jonjo",Ffos Las,Handicap Hurdle
-5,0,0,1,20,-100,-100,4.75,3.57,1,20,3.55,-4.15,41,0,"ONeill, Jonjo",Haydock,Handicap Chase
-10,4,40,6,60,180,203.06,-21.99,-18.29,6,60,5.43,-6.13,34,2.42,"ONeill, Jonjo",Huntingdon,Handicap Hurdle
-6,0,0,1,16.67,-100,-100,5.7,7.16,1,16.67,-3.84,3.53,15,0,"ONeill, Jonjo",Ludlow,Handicap Chase
-12,4,33.33,7,58.33,72.92,103.15,-13.85,-18.12,8,66.67,6.06,-6.79,11,1.65,"ONeill, Jonjo",Newton Abbot,Handicap Chase
-6,0,0,1,16.67,-100,-100,5.7,5.76,1,16.67,-1.68,1.25,21,0,"ONeill, Jonjo",Newton Abbot,Handicap Hurdle
-5,2,40,2,40,180,175.98,-9.57,-18.32,2,40,-0.29,0,21,2.3,"ONeill, Jonjo",Southwell,Handicap Chase
-8,0,0,3,37.5,-100,-100,7.6,5.1,3,37.5,-0.31,-0.19,41,0,"ONeill, Jonjo",Southwell,Handicap Hurdle
-11,0,0,6,54.55,-100,-100,10.45,9.64,6,54.55,7.54,-8.45,17,0,"ONeill, Jonjo",Stratford,Handicap Chase
-9,3,33.33,3,33.33,355.56,520.43,-49.92,-41.16,3,33.33,7.21,-8.2,17,3.06,"ONeill, Jonjo",Warwick,Handicap Chase
-9,0,0,3,33.33,-100,-100,8.55,9.49,3,33.33,-3.97,3.56,17,0,"ONeill, Jonjo",Worcester,Handicap Hurdle
-5,0,0,0,0,-100,-100,4.75,0.22,0,0,-5,4.75,101,0,"Roche, Padraig",Naas,Maiden Hurdle
-6,0,0,3,50,-100,-100,5.7,2.57,3,50,13.78,-14.81,26,0,"Roche, Padraig",Punchestown,Handicap Hurdle
+Runners,Wins,Win% ,Places,Place %,ROI Back SP,ROI Back BF,ROI Lay BF,ROI Lay SP,Places BF,Place% BF,P/L Back BF Place ,P/L Lay BF Place ,Max Odds,A/E,Trainer,Track,Race Type,,
+9,0,0,2,22.22,-100,-100,8.55,4.95,2,22.22,-4.62,4.14,34,0,"Bolger, E",Cheltenham,Chase,,
+5,0,0,1,20,-100,-100,4.75,1.99,1,20,-0.39,0,34,0,"Bolger, E",Galway,Handicap Hurdle,,
+5,0,0,1,20,-100,-100,4.75,12.2,1,20,-1.18,0.83,11,0,"Bolger, E",Kilbeggan,Handicap Chase,,
+14,5,35.71,9,64.29,87.5,120.22,-18.64,-18.83,9,64.29,9.24,-10.24,11,1.88,"Bolger, E",Killarney,Handicap Chase,,
+7,0,0,2,28.57,-100,-100,6.65,14.76,2,28.57,-1.41,0.97,10,0,"Bolger, E",Wexford,Handicap Chase,,
+6,0,0,0,0,-100,-100,5.7,4.23,0,0,-6,5.7,26,0,"Dempsey, J P",Leopardstown,Handicap Chase,,
+6,2,33.33,2,33.33,-34.67,-34.05,1.74,1.4,2,33.33,-3.57,3.35,26,1.49,"Elliott, Gordon",Fairyhouse,Beginners Chase,,
+5,0,0,1,20,-100,-100,4.75,2.22,1,20,-2.27,1.98,34,0,"Elliott, Gordon",Leopardstown,Handicap Chase,,
+6,0,0,1,16.67,-100,-100,5.7,3.48,1,16.67,-2.96,2.6,26,0,"Elliott, Gordon",Leopardstown,Handicap Hurdle,,
+5,2,40,3,60,260,508.29,-27.06,-37.6,3,60,6.27,-6.81,15,2.82,"Fahy, P A",Punchestown,Handicap Hurdle,,
+5,0,0,0,0,-100,-100,4.75,0.25,0,0,-5,4.75,81,0,"Flood, F",Punchestown,Maiden Hurdle,,
+5,0,0,0,0,-100,-100,4.75,5.26,0,0,-5,4.75,15,0,"Harrington, Mrs John",Killarney,Handicap Chase,,
+5,0,0,0,0,-100,-100,4.75,3.65,0,0,-5,4.75,26,0,"Harrington, Mrs John",Punchestown,Handicap Hurdle,,
+7,3,42.86,4,57.14,264.29,346.2,-25.92,-42.28,4,57.14,6.91,-7.58,11,3,"Haslam, B M R",Cartmel,Handicap Chase,,
+6,0,0,0,0,-100,-100,5.7,6.96,0,0,-6,5.7,17,0,"Haslam, B M R",Kelso,Handicap Chase,,
+5,0,0,1,20,-100,-100,4.75,6.05,1,20,0.07,-0.48,23,0,"Haslam, B M R",Kelso,Handicap Hurdle,,
+7,0,0,0,0,-100,-100,6.65,4.5,0,0,-7,6.65,34,0,"Haslam, B M R",Market Rasen,Handicap Chase,,
+10,3,30,4,40,150,200.94,-21.87,-15.03,4,40,6.29,-7.24,34,2.27,"Haslam, B M R",Sedgefield,Handicap Chase,,
+6,0,0,1,16.67,-100,-100,5.7,5.81,1,16.67,-1.96,1.55,26,0,"Haslam, B M R",Southwell,Handicap Chase,,
+13,6,46.15,7,53.85,37.77,39.77,-6.16,-1.33,7,53.85,0.75,-1.4,101,1.33,"Henderson, N J",Cheltenham,Hurdle,,
+6,2,33.33,3,50,58.33,83.75,-5.7,-5,3,50,1.95,-2.36,41,1.92,"Henderson, N J",Newbury,Handicap Hurdle,,
+5,3,60,4,80,45,49.87,-2.83,-3.25,4,80,0.5,-0.63,34,1.7,"Hobbs, P J",Exeter,Novices Hurdle,,
+6,2,33.33,4,66.67,300,351.49,-22.61,-14.01,4,66.67,14.76,-15.74,34,4.44,"Honeyball, A J",Ascot,Handicap Chase,,
+5,2,40,3,60,85,89.91,-5.04,-16.96,3,60,1.09,-1.35,9,2.11,"King, A",Kempton,Handicap Hurdle,,
+9,0,0,0,0,-100,-100,8.55,0.38,0,0,-9,8.55,101,0,"Madden, Niall",Naas,Maiden Hurdle,,
+6,0,0,0,0,-100,-100,5.7,0.3,0,0,-6,5.7,101,0,"Madden, Niall",Navan,Maiden Hurdle,,
+6,0,0,1,16.67,-100,-100,5.7,4.03,1,16.67,-3.79,3.48,26,0,"Madden, Niall",Navan,Handicap Hurdle,,
+5,2,40,2,40,140,153.94,-8.41,-11.46,2,40,-0.44,0.16,21,3.28,"Mullins, Thomas",Leopardstown,Handicap Chase,,
+6,0,0,1,16.67,-100,-100,5.7,1.99,1,16.67,-2.15,1.75,51,0,"Mullins, Thomas",Leopardstown,Handicap Hurdle,,
+5,0,0,0,0,-100,-100,4.75,3.37,0,0,-5,4.75,26,0,"Mullins, Thomas",Navan,Handicap Chase,,
+6,0,0,1,16.67,-100,-100,5.7,1.49,1,16.67,-1.68,1.25,34,0,"Mullins, Thomas",Punchestown,Beginners Chase,,
+7,0,0,1,14.29,-100,-100,6.65,4.72,1,14.29,-4.16,3.76,26,0,"Mullins, Thomas",Punchestown,Handicap Chase,,
+5,0,0,0,0,-100,-100,4.75,6.9,0,0,-5,4.75,15,0,"Mullins, Thomas",Punchestown,Handicap Hurdle,,
+5,0,0,2,40,-100,-100,4.75,7.67,2,40,-0.48,0.2,21,0,"Nolan, Paul",Punchestown,Handicap Chase,,
+6,4,66.67,5,83.33,139.67,161.58,-10.41,-38.67,5,83.33,2.52,-2.75,9,2.4,"OBrien, A P",Dundalk,Handicap,,
+5,0,0,2,40,-100,-100,4.75,3.37,2,40,5.04,-5.61,51,0,"OBrien, Joseph Patrick",Cheltenham,Hurdle,,
+6,0,0,1,16.67,-100,-100,5.7,1.71,1,16.67,-3.5,3.17,34,0,"OBrien, Joseph Patrick",Ballinrobe,Beginners Chase,,
+7,0,0,2,28.57,-100,-100,6.65,10.6,2,28.57,-4.12,3.82,26,0,"OBrien, Joseph Patrick",Ballinrobe,Maiden Hurdle,,
+10,0,0,2,20,-100,-100,9.5,9.68,2,20,-5.51,4.98,13,0,"OBrien, Joseph Patrick",Ballinrobe,Handicap Hurdle,,
+9,0,0,4,44.44,-100,-100,8.55,3.85,4,44.44,-2.9,2.54,26,0,"OBrien, Joseph Patrick",Fairyhouse,Hurdle,,
+6,0,0,2,33.33,-100,-100,5.7,5.55,3,50,2.82,-3.28,29,0,"OBrien, Joseph Patrick",Fairyhouse,Novices Hurdle,,
+5,0,0,2,40,-100,-100,4.75,2.53,2,40,-0.08,-0.22,26,0,"OBrien, Joseph Patrick",Fairyhouse,Handicap Novices Hurdle,,
+7,0,0,2,28.57,-100,-100,6.65,4.86,2,28.57,-1.71,1.29,21,0,"OBrien, Joseph Patrick",Kilbeggan,Beginners Chase,,
+12,4,33.33,7,58.33,115.25,177.09,-23.19,-11.35,7,58.33,2.05,-2.67,26,1.24,"OBrien, Joseph Patrick",Kilbeggan,Maiden Hurdle,,
+5,2,40,2,40,170,228.42,-12.33,-20.2,2,40,0.07,-0.38,26,2.41,"OBrien, Joseph Patrick",Kilbeggan,Novices Chase,,
+9,0,0,3,33.33,-100,-100,8.55,5.73,3,33.33,-0.59,0.01,26,0,"OBrien, Joseph Patrick",Kilbeggan,Handicap Chase,,
+6,2,33.33,2,33.33,225,242.08,-15.7,-13.3,2,33.33,0.56,-1,26,3.7,"OBrien, Joseph Patrick",Kilbeggan,Handicap Hurdle,,
+5,0,0,4,80,-100,-100,4.75,22.53,4,80,2.26,-2.48,8,0,"OBrien, Joseph Patrick",Leopardstown,NH Flat,,
+9,0,0,1,11.11,-100,-100,8.55,1.6,2,22.22,-1.65,1.02,67,0,"OBrien, Joseph Patrick",Leopardstown,Handicap Hurdle,,
+8,0,0,1,12.5,-100,-100,7.6,1.42,1,12.5,-3.25,2.7,51,0,"OBrien, Joseph Patrick",Limerick,Handicap Chase,,
+8,0,0,0,0,-100,-100,7.6,2.55,0,0,-8,7.6,34,0,"OBrien, Joseph Patrick",Listowel,Handicap Chase,,
+5,0,0,2,40,-100,-100,4.75,14.04,2,40,-1.77,1.56,11,0,"OBrien, Joseph Patrick",Naas,Novices Hurdle,,
+5,0,0,1,20,-100,-100,4.75,3.85,1,20,-2.5,2.22,26,0,"OBrien, Joseph Patrick",Naas,Handicap Hurdle,,
+5,0,0,0,0,-100,-100,4.75,2.99,0,0,-5,4.75,26,0,"OBrien, Joseph Patrick",Navan,Handicap Chase,,
+8,0,0,4,50,-100,-100,7.6,5.77,4,50,1.46,-1.95,29,0,"OBrien, Joseph Patrick",Punchestown,Hurdle,,
+6,2,33.33,3,50,116.67,171.94,-11.27,-23.82,4,66.67,1.8,-2.1,15,1.27,"OBrien, Joseph Patrick",Punchestown,NH Flat,,
+8,0,0,2,25,-100,-100,7.6,4.93,2,25,-3.2,2.75,23,0,"OBrien, Joseph Patrick",Punchestown,Handicap Chase,,
+5,0,0,2,40,-100,-100,4.75,13.96,2,40,1.79,-2.19,9,0,"OBrien, Joseph Patrick",Roscommon,Novices Hurdle,,
+5,2,40,2,40,126.6,159.26,-8.69,-5.78,2,40,-1.08,0.83,34,2.11,"OBrien, Joseph Patrick",Thurles,Maiden Hurdle,,
+5,0,0,0,0,-100,-100,4.75,2.46,0,0,-5,4.75,34,0,"OBrien, Joseph Patrick",Wexford,Beginners Chase,,
+5,2,40,4,80,33.4,40.13,-2.42,-5.63,4,80,1.71,-1.9,13,1.46,"OBrien, Joseph Patrick",Wexford,Maiden Hurdle,,
+5,3,60,3,60,330,384.84,-20.46,-60.57,3,60,2.12,-2.44,8,4,"OBrien, Joseph Patrick",Wexford,Handicap Chase,,
+5,0,0,2,40,-100,-100,4.75,4.28,2,40,3.09,-3.56,26,0,"ONeill, Jonjo",Ascot,Handicap Chase,,
+5,0,0,2,40,-100,-100,4.75,7.21,2,40,-0.91,0.65,21,0,"ONeill, Jonjo",Bangor,Handicap Chase,,
+5,0,0,1,20,-100,-100,4.75,2.02,1,20,-2.24,1.95,51,0,"ONeill, Jonjo",Doncaster,Handicap Chase,,
+5,0,0,1,20,-100,-100,4.75,3.73,1,20,-2.11,1.81,26,0,"ONeill, Jonjo",Exeter,Handicap Chase,,
+5,0,0,0,0,-100,-100,4.75,2.31,0,0,-5,4.75,51,0,"ONeill, Jonjo",Exeter,Handicap Hurdle,,
+6,0,0,3,50,-100,-100,5.7,6.33,3,50,10.71,-11.58,26,0,"ONeill, Jonjo",Ffos Las,Handicap Hurdle,,
+5,0,0,1,20,-100,-100,4.75,3.57,1,20,3.55,-4.15,41,0,"ONeill, Jonjo",Haydock,Handicap Chase,,
+10,4,40,6,60,180,203.06,-21.99,-18.29,6,60,5.43,-6.13,34,2.42,"ONeill, Jonjo",Huntingdon,Handicap Hurdle,,
+6,0,0,1,16.67,-100,-100,5.7,7.16,1,16.67,-3.84,3.53,15,0,"ONeill, Jonjo",Ludlow,Handicap Chase,,
+12,4,33.33,7,58.33,72.92,103.15,-13.85,-18.12,8,66.67,6.06,-6.79,11,1.65,"ONeill, Jonjo",Newton Abbot,Handicap Chase,,
+6,0,0,1,16.67,-100,-100,5.7,5.76,1,16.67,-1.68,1.25,21,0,"ONeill, Jonjo",Newton Abbot,Handicap Hurdle,,
+5,2,40,2,40,180,175.98,-9.57,-18.32,2,40,-0.29,0,21,2.3,"ONeill, Jonjo",Southwell,Handicap Chase,,
+8,0,0,3,37.5,-100,-100,7.6,5.1,3,37.5,-0.31,-0.19,41,0,"ONeill, Jonjo",Southwell,Handicap Hurdle,,
+11,0,0,6,54.55,-100,-100,10.45,9.64,6,54.55,7.54,-8.45,17,0,"ONeill, Jonjo",Stratford,Handicap Chase,,
+9,3,33.33,3,33.33,355.56,520.43,-49.92,-41.16,3,33.33,7.21,-8.2,17,3.06,"ONeill, Jonjo",Warwick,Handicap Chase,,
+9,0,0,3,33.33,-100,-100,8.55,9.49,3,33.33,-3.97,3.56,17,0,"ONeill, Jonjo",Worcester,Handicap Hurdle,,
+5,0,0,0,0,-100,-100,4.75,0.22,0,0,-5,4.75,101,0,"Roche, Padraig",Naas,Maiden Hurdle,,
+6,0,0,3,50,-100,-100,5.7,2.57,3,50,13.78,-14.81,26,0,"Roche, Padraig",Punchestown,Handicap Hurdle,,
+9,3,33.33,3,33.33,355.56,520.43,-49.92,-41.16,3,33.33,7.21,-8.2,17,3.06,"ONeill, Jonjo",Plumpton,Handicap Chase,,DELETE ME
