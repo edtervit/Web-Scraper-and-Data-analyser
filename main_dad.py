@@ -1,6 +1,7 @@
 import config
 import os
 import datetime
+import logging
 
 import requests as r
 import time
@@ -233,16 +234,30 @@ def send_whatsapp(input_message):
 
 
 
+try:
+    results_jp, results_Female, results_Male = run_script() 
 
-results_jp, results_Female, results_Male = run_script() 
+    results_all = results_Female + results_Male
 
-results_all = results_Female + results_Male
+    ting = '\n \n JP horses (check the race type):  \n \n' + ' \n'.join(results_jp) + '\n \n NO CHECKING REQUIRED: \n \n' + ' \n'.join(results_all)
 
-ting = '\n \n JP horses (check the race type):  \n \n' + ' \n'.join(results_jp) + '\n \n NO CHECKING REQUIRED: \n \n' + ' \n'.join(results_all)
+    print(ting)
 
-print(ting)
+    send_whatsapp(ting)
+    
+except:
+    logging.exception("message")
 
-send_whatsapp(ting)
+
+# results_jp, results_Female, results_Male = run_script() 
+
+# results_all = results_Female + results_Male
+
+# ting = '\n \n JP horses (check the race type):  \n \n' + ' \n'.join(results_jp) + '\n \n NO CHECKING REQUIRED: \n \n' + ' \n'.join(results_all)
+
+# print(ting)
+
+# send_whatsapp(ting)
 
 # print(results_jp)
 # print(results_Male)
