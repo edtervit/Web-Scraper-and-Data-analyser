@@ -105,7 +105,7 @@ def run_script():
 
 
     #loads page with info
-    driver.get('https://www.horseracebase.com/v4advancequalifiers.php')
+    driver.get('https://www.horseracebase.com/v4advancequalifiers.php?tom=1')
 
     html_source = driver.page_source
 
@@ -225,7 +225,7 @@ def send_whatsapp(input_message):
     message = client.messages.create(
                                 body=str(template + input_message),
                                 from_='whatsapp:+14155238886',
-                                to='whatsapp:+447722593419'
+                                to='whatsapp:+447876751152'
                             )
     print(message.sid)
     
