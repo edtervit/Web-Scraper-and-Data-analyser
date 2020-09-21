@@ -2,6 +2,7 @@ import config
 import os
 import datetime
 import logging
+import traceback
 
 import requests as r
 import time
@@ -231,7 +232,7 @@ def send_whatsapp(input_message):
     print(message.sid)
     
 
-
+logf = open("download.log", "a")
 
 
 try:
@@ -245,8 +246,10 @@ try:
 
     send_whatsapp(ting)
     
-except:
-    logging.exception("message")
+except Exception as e:
+    logf.write(str(e))
+    pass
+    
 
 
 # results_jp, results_Female, results_Male = run_script() 
