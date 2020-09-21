@@ -105,7 +105,7 @@ def run_script():
 
 
     #loads page with info
-    driver.get('https://www.horseracebase.com/v4advancequalifiers.php?tom=1')
+    driver.get('https://www.horseracebase.com/v4advancequalifiers.php')
 
     html_source = driver.page_source
 
@@ -132,8 +132,10 @@ def run_script():
         if row._1 == '(11) checkresultsNEW excel':
             #checks if the track and trainer is in the excel file
             print('Found something to check')
-            if check_jp11(row._3, row._7):
-                results_jp.append('Horse: ' + str(row._5) + ' at track: ' + str(row._3) + ' at time: ' +str(row._2) + ' ')
+            ok, race_type = check_jp11(row._3, row._7)
+            if ok:
+                
+                results_jp.append('Horse: ' + str(row._5) + ' at track: *' + str(row._3) + '* at time: *' +str(row._2) + '* ' + 'Race type: *' + str(race_type) + '*')
 
             else:
                 
@@ -142,8 +144,9 @@ def run_script():
 
         #if system  8 CheckExcel Track MALE 1strun2yo
         elif row._1 == '(8) CheckExcel Track MALE 1strun2yo':
-            if check_jp11(row._3, row._7):
-                results_jp.append('Horse: ' + str(row._5) + ' at track: ' + str(row._3) + ' at time: ' +str(row._2) + ' ')
+            ok, placeperc = check_male(row._3, row._7)
+            if ok:
+                results_Male.append('Horse: ' + str(row._5) + '  Trainer: *' + str(row._7) + '* at track: *' + str(row._3) + '* at time: ' +str(row._2) + ' Place %: *' + str(placeperc) + '* Sex: *Male* ')
 
             else:
                 
@@ -151,8 +154,9 @@ def run_script():
 
         #if system  20 CheckExcel Track FEMALE 1strun2yo
         elif row._1 == '(20) CheckExcel Track FEMALE 2yo1st':
-            if check_jp11(row._3, row._7):
-                results_jp.append('Horse: ' + str(row._5) + ' at track: ' + str(row._3) + ' at time: ' +str(row._2) + ' ')
+            ok, placeperc = check_female(row._3, row._7)
+            if ok:
+                results_Female.append('Horse: ' + str(row._5) + '  Trainer: *' + str(row._7) + '* at track: *' + str(row._3) + '* at time: ' +str(row._2) + ' Place %: *' + str(placeperc) + '*  Sex: *Female* ')
 
             else:
                 
@@ -175,12 +179,13 @@ def check_jp11(track,trainer):
     df = pd.read_csv('system11.csv')
     #for each row in the CSV check if the trainer and the track are there if they are return true
     for row in df.itertuples(index=False):
+        
         if row.Trainer == str(trainer) and row.Track == str(track):
-            return True
+            return True, row.Type
             
         else:
             pass
-    return False        
+    return False, ''        
 
 def check_male(track,trainer):
     df = pd.read_csv('system208.csv')
@@ -188,11 +193,11 @@ def check_male(track,trainer):
     for row in df.itertuples(index=False):
         gender = 'Male'
         if row.Trainer == trainer and row.Course == track and row.Gender == gender:
-            return True
+            return True, row.Placepercent
             
         else:
             pass
-    return False
+    return False, ''
 
 def check_female(track,trainer):    
     df = pd.read_csv('system208.csv')
@@ -200,11 +205,11 @@ def check_female(track,trainer):
     for row in df.itertuples(index=False):
         gender = 'Female'
         if row.Trainer == trainer and row.Course == track and row.Gender == gender:
-            return True
+            return True, row.Placepercent
             
         else:
             pass
-    return False
+    return False, ''
 
 
 
@@ -233,8 +238,9 @@ results_jp, results_Female, results_Male = run_script()
 
 results_all = results_Female + results_Male
 
-ting = 'JP horses (check the race type):  \n' + ', \n'.join(results_jp) + '\n NO CHECKING REQUIRED: ' + ', '.join(results_all)
+ting = '\n \n JP horses (check the race type):  \n \n' + ' \n'.join(results_jp) + '\n \n NO CHECKING REQUIRED: \n \n' + ' \n'.join(results_all)
 
+print(ting)
 
 send_whatsapp(ting)
 
