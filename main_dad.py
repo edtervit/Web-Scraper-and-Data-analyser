@@ -176,7 +176,7 @@ def run_script():
 #checks the excel to see if the trainer and track are correct
 def check_jp11(track,trainer):
     
-    df = pd.read_csv('system11.csv')
+    df = pd.read_csv(r'E:\Dropbox\Dropbox\Dev\Work\Dads-daily-checker\system11.csv')
     #for each row in the CSV check if the trainer and the track are there if they are return true
     for row in df.itertuples(index=False):
         
@@ -188,7 +188,7 @@ def check_jp11(track,trainer):
     return False, ''        
 
 def check_male(track,trainer):
-    df = pd.read_csv('system208.csv')
+    df = pd.read_csv(r'E:\Dropbox\Dropbox\Dev\Work\Dads-daily-checker\system208.csv')
 
     for row in df.itertuples(index=False):
         gender = 'Male'
@@ -200,7 +200,7 @@ def check_male(track,trainer):
     return False, ''
 
 def check_female(track,trainer):    
-    df = pd.read_csv('system208.csv')
+    df = pd.read_csv(r'E:\Dropbox\Dropbox\Dev\Work\Dads-daily-checker\system208.csv')
 
     for row in df.itertuples(index=False):
         gender = 'Female'
