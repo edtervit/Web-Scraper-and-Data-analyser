@@ -215,19 +215,19 @@ def check_female(track,trainer):
 
 
 
-def send_whatsapp(input_message):
+def send_text(input_message):
 
     account_sid = config.twilio_sid
     auth_token = config.twilio_auth
 
-    template = 'Your info code is '
-
+    
     client = Client(account_sid, auth_token)
 
     message = client.messages.create(
-                                body=str(template + input_message),
-                                from_='whatsapp:+14155238886',
-                                to='whatsapp:+447876751152'
+                                from_='+447723505954', 
+                                messaging_service_sid=config.messaging_service_sid, 
+                                body=str(input_message),
+                                to='+447876751152'
                             )
     print(message.sid)
     
@@ -244,7 +244,7 @@ try:
 
     print(ting)
 
-    send_whatsapp(ting)
+    send_text(ting)
     
 except Exception as e:
     logf.write(str(e))
